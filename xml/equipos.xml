@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<liga>
+    <equipo>
+        <nombre>Halcones</nombre>
+        <ciudad>Xalapa</ciudad>
+        <estadio>Estadio Universitario</estadio>
+        <entrenador>Carlos Perez</entrenador>
+        <fundacion>2015</fundacion>
+    </equipo>
+
+    <equipo>
+        <nombre>Tigres</nombre>
+        <ciudad>Veracruz</ciudad>
+        <estadio>Campo Norte</estadio>
+        <entrenador>Manuel Lopez</entrenador>
+        <fundacion>2017</fundacion>
+    </equipo>
+
+    <equipo>
+        <nombre>Leones</nombre>
+        <ciudad>Coatepec</ciudad>
+        <estadio>Unidad Deportiva</estadio>
+        <entrenador>Jorge Ramirez</entrenador>
+        <fundacion>2016</fundacion>
+    </equipo>
+
+    <equipo>
+        <nombre>Panteras</nombre>
+        <ciudad>Banderilla</ciudad>
+        <estadio>Campo Central</estadio>
+        <entrenador>Ricardo Torres</entrenador>
+        <fundacion>2018</fundacion>
+    </equipo>
+</liga>

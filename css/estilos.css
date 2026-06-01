@@ -49,3 +49,24 @@ body {
     text-align: center;
     padding: 10px;
 }
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
