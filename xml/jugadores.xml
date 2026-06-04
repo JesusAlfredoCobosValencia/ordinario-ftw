@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<liga>
+    <jugador>
+        <nombre>Luis Hernandez</nombre>
+        <equipo>Halcones</equipo>
+        <posicion>Delantero</posicion>
+        <numero>9</numero>
+        <edad>21</edad>
+        <goles>8</goles>
+    </jugador>
+
+    <jugador>
+        <nombre>Mario Sanchez</nombre>
+        <equipo>Tigres</equipo>
+        <posicion>Medio</posicion>
+        <numero>10</numero>
+        <edad>22</edad>
+        <goles>5</goles>
+    </jugador>
+
+    <jugador>
+        <nombre>Jose Martinez</nombre>
+        <equipo>Leones</equipo>
+        <posicion>Defensa</posicion>
+        <numero>4</numero>
+        <edad>20</edad>
+        <goles>1</goles>
+    </jugador>
+
+    <jugador>
+        <nombre>Angel Torres</nombre>
+        <equipo>Panteras</equipo>
+        <posicion>Portero</posicion>
+        <numero>1</numero>
+        <edad>23</edad>
+        <goles>0</goles>
+    </jugador>
+
+    <jugador>
+        <nombre>Fernando Lopez</nombre>
+        <equipo>Halcones</equipo>
+        <posicion>Medio</posicion>
+        <numero>8</numero>
+        <edad>21</edad>
+        <goles>3</goles>
+    </jugador>
+
+    <jugador>
+        <nombre>Carlos Ramirez</nombre>
+        <equipo>Tigres</equipo>
+        <posicion>Delantero</posicion>
+        <numero>11</numero>
+        <edad>20</edad>
+        <goles>6</goles>
+    </jugador>
+</liga>
