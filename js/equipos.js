@@ -7,7 +7,7 @@ function cargarEquipos() {
         }
     };
 
-    xhttp.open("GET", "xml/equipos.xml", true);
+   xhttp.open("GET", "./xml/equipos.xml", true);
     xhttp.send();
 }
 
@@ -22,7 +22,7 @@ function filtrarEquipos() {
         }
     };
 
-    xhttp.open("GET", "xml/equipos.xml", true);
+    xhttp.open("GET", "./xml/equipos.xml", true);
     xhttp.send();
 }
 
@@ -63,7 +63,7 @@ function mostrarEquipos(xml, filtro) {
             tarjetas += fundacion;
             tarjetas += "</p>";
 
-            
+
             tarjetas += "</div>";
         }
     }
