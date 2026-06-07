@@ -1,0 +1,8 @@
+<!ELEMENT liga (jugador+)>
+<!ELEMENT jugador (nombre, equipo, posicion, numero, edad, goles)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT equipo (#PCDATA)>
+<!ELEMENT posicion (#PCDATA)>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT edad (#PCDATA)>
+<!ELEMENT goles (#PCDATA)>

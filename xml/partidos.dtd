@@ -1,0 +1,9 @@
+<!ELEMENT liga (partido+)>
+<!ELEMENT partido (jornada, local, visitante, fecha, hora, estadio, resultado)>
+<!ELEMENT jornada (#PCDATA)>
+<!ELEMENT local (#PCDATA)>
+<!ELEMENT visitante (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT hora (#PCDATA)>
+<!ELEMENT estadio (#PCDATA)>
+<!ELEMENT resultado (#PCDATA)>

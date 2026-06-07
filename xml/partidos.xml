@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<!DOCTYPE liga SYSTEM "partidos.dtd">
+
 <liga>
     <partido>
         <jornada>1</jornada>

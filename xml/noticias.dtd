@@ -1,0 +1,7 @@
+<!ELEMENT liga (noticia+)>
+<!ELEMENT noticia (tipo, titulo, fecha, texto, cita)>
+<!ELEMENT tipo (#PCDATA)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT texto (#PCDATA)>
+<!ELEMENT cita (#PCDATA)>

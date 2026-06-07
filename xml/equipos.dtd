@@ -1,0 +1,7 @@
+<!ELEMENT liga (equipo+)>
+<!ELEMENT equipo (nombre, ciudad, estadio, entrenador, fundacion)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT estadio (#PCDATA)>
+<!ELEMENT entrenador (#PCDATA)>
+<!ELEMENT fundacion (#PCDATA)>

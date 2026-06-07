@@ -1,0 +1,11 @@
+<!ELEMENT liga (equipo+)>
+<!ELEMENT equipo (posicion, nombre, jugados, ganados, empatados, perdidos, favor, contra, puntos)>
+<!ELEMENT posicion (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT jugados (#PCDATA)>
+<!ELEMENT ganados (#PCDATA)>
+<!ELEMENT empatados (#PCDATA)>
+<!ELEMENT perdidos (#PCDATA)>
+<!ELEMENT favor (#PCDATA)>
+<!ELEMENT contra (#PCDATA)>
+<!ELEMENT puntos (#PCDATA)>
