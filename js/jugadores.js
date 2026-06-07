@@ -7,7 +7,7 @@ function cargarJugadores() {
         }
     };
 
-    xhttp.open("GET", "xml/jugadores.xml", true);
+    xhttp.open("GET", "./xml/jugadores.xml", true);
     xhttp.send();
 }
 
@@ -22,7 +22,7 @@ function filtrarJugadores() {
         }
     };
 
-    xhttp.open("GET", "xml/jugadores.xml", true);
+    xhttp.open("GET", "./xml/jugadores.xml", true);
     xhttp.send();
 }
 
@@ -30,17 +30,9 @@ function mostrarJugadores(xml, filtro) {
     var documento = xml.responseXML;
     var jugadores = documento.getElementsByTagName("jugador");
 
-    var texto = "";
+    var tarjetas = "";
 
-    texto += "<table>";
-    texto += "<tr>";
-    texto += "<th>Nombre</th>";
-    texto += "<th>Equipo</th>";
-    texto += "<th>Posicion</th>";
-    texto += "<th>Numero</th>";
-    texto += "<th>Edad</th>";
-    texto += "<th>Goles</th>";
-    texto += "</tr>";
+    tarjetas += "<div class='tarjetas'>";
 
     for (i = 0; i < jugadores.length; i++) {
         var nombre = jugadores[i].getElementsByTagName("nombre")[0].childNodes[0].nodeValue;
@@ -51,37 +43,36 @@ function mostrarJugadores(xml, filtro) {
         var goles = jugadores[i].getElementsByTagName("goles")[0].childNodes[0].nodeValue;
 
         if (filtro == "Todos" || equipo == filtro) {
-            texto += "<tr>";
+            tarjetas += "<div class='tarjeta jugador'>";
+            tarjetas += "<h3>";
+            tarjetas += nombre;
+            tarjetas += "</h3>";
 
-            texto += "<td>";
-            texto += nombre;
-            texto += "</td>";
+            tarjetas += "<p><b>Equipo:</b> ";
+            tarjetas += equipo;
+            tarjetas += "</p>";
 
-            texto += "<td>";
-            texto += equipo;
-            texto += "</td>";
+            tarjetas += "<p><b>Posicion:</b> ";
+            tarjetas += posicion;
+            tarjetas += "</p>";
 
-            texto += "<td>";
-            texto += posicion;
-            texto += "</td>";
+            tarjetas += "<p><b>Numero:</b> ";
+            tarjetas += numero;
+            tarjetas += "</p>";
 
-            texto += "<td>";
-            texto += numero;
-            texto += "</td>";
+            tarjetas += "<p><b>Edad:</b> ";
+            tarjetas += edad;
+            tarjetas += "</p>";
 
-            texto += "<td>";
-            texto += edad;
-            texto += "</td>";
+            tarjetas += "<p><b>Goles:</b> ";
+            tarjetas += goles;
+            tarjetas += "</p>";
 
-            texto += "<td>";
-            texto += goles;
-            texto += "</td>";
-
-            texto += "</tr>";
+            tarjetas += "</div>";
         }
     }
 
-    texto += "</table>";
+    tarjetas += "</div>";
 
-    document.getElementById("tablaJugadores").innerHTML = texto;
+    document.getElementById("tarjetasJugadores").innerHTML = tarjetas;
 }
