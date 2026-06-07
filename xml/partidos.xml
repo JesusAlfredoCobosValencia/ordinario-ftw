@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<liga>
+    <partido>
+        <jornada>1</jornada>
+        <local>Halcones</local>
+        <visitante>Tigres</visitante>
+        <fecha>8 de junio</fecha>
+        <hora>5:00 PM</hora>
+        <estadio>Estadio Universitario</estadio>
+        <resultado>2 - 1</resultado>
+    </partido>
+
+    <partido>
+        <jornada>1</jornada>
+        <local>Leones</local>
+        <visitante>Panteras</visitante>
+        <fecha>8 de junio</fecha>
+        <hora>7:00 PM</hora>
+        <estadio>Unidad Deportiva</estadio>
+        <resultado>1 - 1</resultado>
+    </partido>
+
+    <partido>
+        <jornada>2</jornada>
+        <local>Tigres</local>
+        <visitante>Leones</visitante>
+        <fecha>15 de junio</fecha>
+        <hora>6:00 PM</hora>
+        <estadio>Campo Norte</estadio>
+        <resultado>3 - 2</resultado>
+    </partido>
+
+    <partido>
+        <jornada>2</jornada>
+        <local>Panteras</local>
+        <visitante>Halcones</visitante>
+        <fecha>15 de junio</fecha>
+        <hora>8:00 PM</hora>
+        <estadio>Campo Central</estadio>
+        <resultado>0 - 2</resultado>
+    </partido>
+
+    <partido>
+        <jornada>3</jornada>
+        <local>Halcones</local>
+        <visitante>Leones</visitante>
+        <fecha>22 de junio</fecha>
+        <hora>5:00 PM</hora>
+        <estadio>Estadio Universitario</estadio>
+        <resultado>Pendiente</resultado>
+    </partido>
+
+    <partido>
+        <jornada>3</jornada>
+        <local>Tigres</local>
+        <visitante>Panteras</visitante>
+        <fecha>22 de junio</fecha>
+        <hora>7:00 PM</hora>
+        <estadio>Campo Norte</estadio>
+        <resultado>Pendiente</resultado>
+    </partido>
+</liga>

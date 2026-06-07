@@ -92,3 +92,29 @@ article {
     padding: 5px;
     margin-left: 5px;
 }
+
+.tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.tarjeta {
+    width: 190px;
+    background-color: #f2f2f2;
+    border: 2px solid green;
+    padding: 15px;
+}
+
+.tarjeta h3 {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.tarjeta p {
+    font-size: 14px;
+}

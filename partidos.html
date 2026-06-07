@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Partidos</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body onload="cargarPartidos()">
+
+    <div id="contenedor">
+
+        <header id="encabezado">
+            <h1>Liga Universitaria de Futbol</h1>
+            <p>Partidos de la liga</p>
+        </header>
+
+        <nav id="menu">
+            <a href="index.html">Inicio</a>
+            <a href="equipos.html">Equipos</a>
+            <a href="jugadores.html">Jugadores</a>
+            <a href="partidos.html">Partidos</a>
+            <a href="posiciones.html">Posiciones</a>
+            <a href="noticias.html">Noticias</a>
+        </nav>
+
+        <main id="contenido">
+
+            <article>
+                <h2>Calendario de partidos</h2>
+
+                <p>
+                    En esta pagina se muestran algunos partidos de la liga.
+                    Los datos se cargan desde un archivo XML.
+                </p>
+
+                <div id="filtros">
+                    <label for="filtroJornada">Filtrar por jornada:</label>
+
+                    <select id="filtroJornada">
+                        <option value="Todas">Todas</option>
+                        <option value="1">Jornada 1</option>
+                        <option value="2">Jornada 2</option>
+                        <option value="3">Jornada 3</option>
+                    </select>
+
+                    <button onclick="filtrarPartidos()">Filtrar</button>
+                    <button onclick="cargarPartidos()">Mostrar todos</button>
+                </div>
+
+                <div id="tablaPartidos">
+                </div>
+            </article>
+
+        </main>
+
+        <footer id="pie">
+            <p>Proyecto final - GitHub</p>
+        </footer>
+
+    </div>
+
+    <script src="js/partidos.js"></script>
+</body>
+</html>

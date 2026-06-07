@@ -30,16 +30,9 @@ function mostrarEquipos(xml, filtro) {
     var documento = xml.responseXML;
     var equipos = documento.getElementsByTagName("equipo");
 
-    var texto = "";
+    var tarjetas = "";
 
-    texto += "<table>";
-    texto += "<tr>";
-    texto += "<th>Nombre</th>";
-    texto += "<th>Ciudad</th>";
-    texto += "<th>Estadio</th>";
-    texto += "<th>Entrenador</th>";
-    texto += "<th>Fundacion</th>";
-    texto += "</tr>";
+    tarjetas += "<div class='tarjetas'>";
 
     for (i = 0; i < equipos.length; i++) {
         var nombre = equipos[i].getElementsByTagName("nombre")[0].childNodes[0].nodeValue;
@@ -49,33 +42,32 @@ function mostrarEquipos(xml, filtro) {
         var fundacion = equipos[i].getElementsByTagName("fundacion")[0].childNodes[0].nodeValue;
 
         if (filtro == "Todos" || ciudad == filtro) {
-            texto += "<tr>";
+            tarjetas += "<div class='tarjeta'>";
+            tarjetas += "<h3>";
+            tarjetas += nombre;
+            tarjetas += "</h3>";
 
-            texto += "<td>";
-            texto += nombre;
-            texto += "</td>";
+            tarjetas += "<p><b>Ciudad:</b> ";
+            tarjetas += ciudad;
+            tarjetas += "</p>";
 
-            texto += "<td>";
-            texto += ciudad;
-            texto += "</td>";
+            tarjetas += "<p><b>Estadio:</b> ";
+            tarjetas += estadio;
+            tarjetas += "</p>";
 
-            texto += "<td>";
-            texto += estadio;
-            texto += "</td>";
+            tarjetas += "<p><b>Entrenador:</b> ";
+            tarjetas += entrenador;
+            tarjetas += "</p>";
 
-            texto += "<td>";
-            texto += entrenador;
-            texto += "</td>";
+            tarjetas += "<p><b>Fundacion:</b> ";
+            tarjetas += fundacion;
+            tarjetas += "</p>";
 
-            texto += "<td>";
-            texto += fundacion;
-            texto += "</td>";
-
-            texto += "</tr>";
+            tarjetas += "</div>";
         }
     }
 
-    texto += "</table>";
+    tarjetas += "</div>";
 
-    document.getElementById("tablaEquipos").innerHTML = texto;
+    document.getElementById("tarjetasEquipos").innerHTML = tarjetas;
 }
