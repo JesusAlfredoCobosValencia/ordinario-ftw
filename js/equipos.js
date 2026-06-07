@@ -63,6 +63,7 @@ function mostrarEquipos(xml, filtro) {
             tarjetas += fundacion;
             tarjetas += "</p>";
 
+            
             tarjetas += "</div>";
         }
     }
