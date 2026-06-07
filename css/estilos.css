@@ -75,3 +75,20 @@ article {
     margin-bottom: 20px;
 }
 
+#filtros {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#filtros label {
+    margin-right: 10px;
+}
+
+#filtros select {
+    padding: 5px;
+}
+
+#filtros button {
+    padding: 5px;
+    margin-left: 5px;
+}

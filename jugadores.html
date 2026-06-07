@@ -27,13 +27,28 @@
             <article>
                 <h2>Jugadores</h2>
 
-                <p>
+               <p>
                     En esta pagina se muestran algunos jugadores de los
                     equipos de la liga.
                 </p>
 
-                <div id="tablaJugadores">
-                </div>
+            <div id="filtros">
+                <label for="filtroEquipo">Filtrar por equipo:</label>
+
+                <select id="filtroEquipo">
+                    <option value="Todos">Todos</option>
+                    <option value="Halcones">Halcones</option>
+                    <option value="Tigres">Tigres</option>
+                    <option value="Leones">Leones</option>
+                    <option value="Panteras">Panteras</option>
+                </select>
+
+                <button onclick="filtrarJugadores()">Filtrar</button>
+                <button onclick="cargarJugadores()">Mostrar todos</button>
+            </div>
+
+<div id="tablaJugadores">
+</div>
             </article>
 
         </main>
