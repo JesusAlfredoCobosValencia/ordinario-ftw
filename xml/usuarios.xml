@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<usuarios>
+    <usuario>
+        <nombre>admin</nombre>
+        <clave>1234</clave>
+        <tipo>Administrador</tipo>
+    </usuario>
+
+    <usuario>
+        <nombre>invitado</nombre>
+        <clave>1111</clave>
+        <tipo>Invitado</tipo>
+    </usuario>
+
+    <usuario>
+        <nombre>liga</nombre>
+        <clave>2026</clave>
+        <tipo>Usuario</tipo>
+    </usuario>
+</usuarios>

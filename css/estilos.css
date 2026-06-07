@@ -167,3 +167,41 @@ article {
     padding: 10px;
     font-style: italic;
 }
+
+#formulario {
+    background-color: #f2f2f2;
+    border: 2px solid green;
+    padding: 20px;
+    width: 300px;
+    margin-top: 20px;
+}
+
+#formulario label {
+    display: block;
+    margin-top: 10px;
+}
+
+#formulario input {
+    width: 95%;
+    padding: 6px;
+    margin-top: 5px;
+}
+
+#formulario button {
+    margin-top: 15px;
+    padding: 8px;
+}
+
+.correcto {
+    background-color: #d7ffd7;
+    border: 1px solid green;
+    padding: 10px;
+    width: 300px;
+}
+
+.incorrecto {
+    background-color: #ffd7d7;
+    border: 1px solid red;
+    padding: 10px;
+    width: 300px;
+}

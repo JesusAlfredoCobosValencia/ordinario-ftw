@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+
+    <div id="contenedor">
+
+        <header id="encabezado">
+            <h1>Liga Universitaria de Futbol</h1>
+            <p>Login del sitio</p>
+        </header>
+
+        <main id="contenido">
+
+            <article>
+                <h2>Iniciar sesion</h2>
+
+                <p>
+                    Ingresa con un usuario registrado para entrar al sitio.
+                </p>
+
+                <div id="credenciales">
+                    <h3>Credenciales de prueba</h3>
+
+                    <div class="usuarioPrueba">
+                        <p><b>Usuario:</b> admin</p>
+                        <p><b>Contraseña:</b> 1234</p>
+                    </div>
+
+                    <div class="usuarioPrueba">
+                        <p><b>Usuario:</b> invitado</p>
+                        <p><b>Contraseña:</b> 1111</p>
+                    </div>
+                </div>
+
+                <div id="formulario">
+                    <label for="usuario">Usuario:</label>
+                    <input type="text" id="usuario">
+
+                    <label for="clave">Contraseña:</label>
+                    <input type="password" id="clave">
+
+                    <button onclick="validarAcceso()">Entrar</button>
+                </div>
+
+                <div id="mensaje">
+                </div>
+            </article>
+
+        </main>
+
+        <footer id="pie">
+            <p>Proyecto final - GitHub</p>
+        </footer>
+
+    </div>
+
+    <script src="./js/acceso.js"></script>
+</body>
+</html>
