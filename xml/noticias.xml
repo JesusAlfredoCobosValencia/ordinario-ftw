@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<liga>
+    <noticia>
+        <tipo>Partido</tipo>
+        <titulo>Halcones gana el partido principal</titulo>
+        <fecha>8 de junio</fecha>
+        <texto>El equipo Halcones consiguio una victoria importante contra Tigres en el Estadio Universitario.</texto>
+        <cita>El esfuerzo del equipo se noto durante todo el partido.</cita>
+    </noticia>
+
+    <noticia>
+        <tipo>Equipo</tipo>
+        <titulo>Tigres prepara su siguiente jornada</titulo>
+        <fecha>10 de junio</fecha>
+        <texto>El equipo Tigres entreno durante la semana para mejorar su defensa y recuperar puntos en la tabla.</texto>
+        <cita>La siguiente jornada sera importante para el equipo.</cita>
+    </noticia>
+
+    <noticia>
+        <tipo>Aviso</tipo>
+        <titulo>Cambio de horario en la jornada 3</titulo>
+        <fecha>12 de junio</fecha>
+        <texto>La liga informa que algunos partidos de la jornada 3 cambiaran de horario por mantenimiento del campo.</texto>
+        <cita>Se recomienda revisar el calendario antes de asistir.</cita>
+    </noticia>
+
+    <noticia>
+        <tipo>Partido</tipo>
+        <titulo>Leones y Panteras empatan</titulo>
+        <fecha>8 de junio</fecha>
+        <texto>Leones y Panteras terminaron empatados en un partido cerrado dentro de la primera jornada.</texto>
+        <cita>Ambos equipos buscaron ganar hasta el final.</cita>
+    </noticia>
+
+    <noticia>
+        <tipo>Equipo</tipo>
+        <titulo>Panteras busca su primera victoria</titulo>
+        <fecha>14 de junio</fecha>
+        <texto>Panteras continua entrenando para mejorar sus resultados y subir en la tabla de posiciones.</texto>
+        <cita>El equipo mantiene la confianza para los siguientes partidos.</cita>
+    </noticia>
+</liga>

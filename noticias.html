@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Noticias</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body onload="cargarNoticias()">
+
+    <div id="contenedor">
+
+        <header id="encabezado">
+            <h1>Liga Universitaria de Futbol</h1>
+            <p>Noticias de la liga</p>
+        </header>
+
+        <nav id="menu">
+            <a href="index.html">Inicio</a>
+            <a href="equipos.html">Equipos</a>
+            <a href="jugadores.html">Jugadores</a>
+            <a href="partidos.html">Partidos</a>
+            <a href="posiciones.html">Posiciones</a>
+            <a href="noticias.html">Noticias</a>
+        </nav>
+
+        <main id="contenido">
+
+            <article>
+                <h2>Noticias y avisos</h2>
+
+                <p>
+                    En esta pagina se muestran noticias importantes de la liga,
+                    avisos de partidos y datos de los equipos.
+                </p>
+
+                <div id="filtros">
+                    <label for="filtroTipo">Filtrar por tipo:</label>
+
+                    <select id="filtroTipo">
+                        <option value="Todas">Todas</option>
+                        <option value="Partido">Partido</option>
+                        <option value="Equipo">Equipo</option>
+                        <option value="Aviso">Aviso</option>
+                    </select>
+
+                    <button onclick="filtrarNoticias()">Filtrar</button>
+                    <button onclick="cargarNoticias()">Mostrar todas</button>
+                </div>
+
+                <div id="noticias">
+                </div>
+            </article>
+
+        </main>
+
+        <footer id="pie">
+            <p>Proyecto final - GitHub</p>
+        </footer>
+
+    </div>
+
+    <script src="./js/noticias.js"></script>
+</body>
+</html>
