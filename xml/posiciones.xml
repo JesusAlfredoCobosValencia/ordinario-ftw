@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<liga>
+    <equipo>
+        <posicion>1</posicion>
+        <nombre>Halcones</nombre>
+        <jugados>4</jugados>
+        <ganados>3</ganados>
+        <empatados>1</empatados>
+        <perdidos>0</perdidos>
+        <favor>8</favor>
+        <contra>3</contra>
+        <puntos>10</puntos>
+    </equipo>
+
+    <equipo>
+        <posicion>2</posicion>
+        <nombre>Tigres</nombre>
+        <jugados>4</jugados>
+        <ganados>2</ganados>
+        <empatados>1</empatados>
+        <perdidos>1</perdidos>
+        <favor>7</favor>
+        <contra>5</contra>
+        <puntos>7</puntos>
+    </equipo>
+
+    <equipo>
+        <posicion>3</posicion>
+        <nombre>Leones</nombre>
+        <jugados>4</jugados>
+        <ganados>1</ganados>
+        <empatados>1</empatados>
+        <perdidos>2</perdidos>
+        <favor>4</favor>
+        <contra>6</contra>
+        <puntos>4</puntos>
+    </equipo>
+
+    <equipo>
+        <posicion>4</posicion>
+        <nombre>Panteras</nombre>
+        <jugados>4</jugados>
+        <ganados>0</ganados>
+        <empatados>1</empatados>
+        <perdidos>3</perdidos>
+        <favor>2</favor>
+        <contra>7</contra>
+        <puntos>1</puntos>
+    </equipo>
+</liga>

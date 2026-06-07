@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Posiciones</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body onload="cargarPosiciones()">
+
+    <div id="contenedor">
+
+        <header id="encabezado">
+            <h1>Liga Universitaria de Futbol</h1>
+            <p>Tabla de posiciones</p>
+        </header>
+
+        <nav id="menu">
+            <a href="index.html">Inicio</a>
+            <a href="equipos.html">Equipos</a>
+            <a href="jugadores.html">Jugadores</a>
+            <a href="partidos.html">Partidos</a>
+            <a href="posiciones.html">Posiciones</a>
+            <a href="noticias.html">Noticias</a>
+        </nav>
+
+        <main id="contenido">
+
+            <article>
+                <h2>Posiciones de la liga</h2>
+
+                <p>
+                    En esta pagina se muestra la tabla de posiciones de los
+                    equipos de la liga.
+                </p>
+
+                <div id="filtros">
+                    <label for="filtroEquipo">Buscar equipo:</label>
+
+                    <select id="filtroEquipo">
+                        <option value="Todos">Todos</option>
+                        <option value="Halcones">Halcones</option>
+                        <option value="Tigres">Tigres</option>
+                        <option value="Leones">Leones</option>
+                        <option value="Panteras">Panteras</option>
+                    </select>
+
+                    <button onclick="filtrarPosiciones()">Filtrar</button>
+                    <button onclick="cargarPosiciones()">Mostrar todos</button>
+                </div>
+
+                <div id="resumenPosiciones">
+                </div>
+
+                <h2>Tabla general</h2>
+
+                <div id="tablaPosiciones">
+                </div>
+            </article>
+
+        </main>
+
+        <footer id="pie">
+            <p>Proyecto final - GitHub</p>
+        </footer>
+
+    </div>
+
+    <script src="./js/posiciones.js"></script>
+</body>
+</html>
